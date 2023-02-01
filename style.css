@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+}
+#wrapper{
+    background-color:rgb(27, 132, 224);
+}
+#header{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    margin-left:10px ;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+img{
+    width: 6%;
+    background-color: aliceblue;
+}
+#title{
+    color: rgb(37, 37, 32);
+    text-decoration: underline;
+}
+.container{
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 100vh;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr;
+    
+}
+.ngd{
+    background-color: aliceblue;
+    gap: 20px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr) ;
+
+}
+.card{
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+h3{
+    color: rgb(75, 75, 240);
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+h1{
+    font-weight:600;
+    font-style: normal;
+    color:rgb(29, 27, 27);
+    background-color: aliceblue;
+}
+.date{
+    color: rgb(37, 37, 44);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: aliceblue;
+}
+p{
+    color: rgb(31, 29, 29);
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+a{
+    color: rgb(60, 60, 171);
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+
+.card:hover .hthree{
+    color: rgb(10, 180, 58);
+    
+}
