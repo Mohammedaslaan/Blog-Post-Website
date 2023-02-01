@@ -5,7 +5,7 @@ Features Used in website:
   1. Two Page Hyper Link Website.
   2. Designed by me.
 
-Live Link :- https://mohammedaslaan.github.io/Blog-Post-Website/post.html
+Live Link :- https://mohammedaslaan.github.io/Blog-Post-Website/
 
 
 ![p1](https://user-images.githubusercontent.com/81412984/216102179-2b0a56c1-66ef-48c2-8bc7-6ffff5b41171.jpg)
